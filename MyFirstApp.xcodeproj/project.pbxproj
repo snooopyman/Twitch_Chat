@@ -11,6 +11,9 @@
 		472B574429C364C0001F8059 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472B574329C364C0001F8059 /* ContentView.swift */; };
 		472B574629C364C1001F8059 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 472B574529C364C1001F8059 /* Assets.xcassets */; };
 		472B574929C364C1001F8059 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 472B574829C364C1001F8059 /* Preview Assets.xcassets */; };
+		472B575029C36910001F8059 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472B574F29C36910001F8059 /* WebView.swift */; };
+		473FDF7329C4937B0064CE3A /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473FDF7229C4937B0064CE3A /* ChatView.swift */; };
+		473FDF7529C4938D0064CE3A /* ChannelInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473FDF7429C4938D0064CE3A /* ChannelInputView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		472B574329C364C0001F8059 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		472B574529C364C1001F8059 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		472B574829C364C1001F8059 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		472B574F29C36910001F8059 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		473FDF7229C4937B0064CE3A /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		473FDF7429C4938D0064CE3A /* ChannelInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelInputView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				472B574129C364C0001F8059 /* MyFirstAppApp.swift */,
 				472B574329C364C0001F8059 /* ContentView.swift */,
+				472B574F29C36910001F8059 /* WebView.swift */,
+				473FDF7229C4937B0064CE3A /* ChatView.swift */,
+				473FDF7429C4938D0064CE3A /* ChannelInputView.swift */,
 				472B574529C364C1001F8059 /* Assets.xcassets */,
 				472B574729C364C1001F8059 /* Preview Content */,
 			);
@@ -137,7 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				473FDF7329C4937B0064CE3A /* ChatView.swift in Sources */,
+				472B575029C36910001F8059 /* WebView.swift in Sources */,
 				472B574429C364C0001F8059 /* ContentView.swift in Sources */,
+				473FDF7529C4938D0064CE3A /* ChannelInputView.swift in Sources */,
 				472B574229C364C0001F8059 /* MyFirstAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,6 +279,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MyFirstApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 28XP7Q88R2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -295,6 +308,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MyFirstApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 28XP7Q88R2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
